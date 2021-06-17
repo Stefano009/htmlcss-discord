@@ -27,6 +27,12 @@ nav a{
     text-decoration: none;
     color: white;
 }
+
+clearfix{
+    content: "";
+    display: table;
+    clear: both;
+}
 /* /common */
 
 /* nav */
@@ -90,7 +96,6 @@ nav{
 
 /* main */
 
-
 .wrap{
     
     position: absolute;
@@ -127,6 +132,68 @@ nav{
     margin-left: 2%;
     background-color: rgb(30, 30, 30) ;
     color: white;
+}
+
+.movimento{
+    float: left;
+    margin-left: 0;
+    margin-top: 30%;
+    width: 50%;
+    
+}
+
+.size {
+    width: 100%;
+}
+.colonna{
+    margin-left: 20%;
+    width: 55%;
+    font-size: 80%;
+
+}
+
+.due .colonna{
+    padding-top: 20px;
+}
+
+.quattro .movimento{
+    width: 100%;
+}
+
+.quattro .colonna{
+    text-align: center;
+    margin-left: 5%;
+    width: 100%;
+    font-size: 80%;
+}
+
+.colonna h2{
+    font-size: 200%;
+}
+
+.quattro .foto{
+    width: 100%;
+}
+
+.quattro .foto{
+    margin-top: 1%;
+    height: 80%;
+}
+
+.footer h2{
+    background-image: url(../img/stars.svg);
+    background-repeat: no-repeat;
+    text-align: center;
+    height: 50%;
+    width: 100%;
+}
+
+.footer{
+    
+    float: middle;
+    margin-left: 40%;
+    margin-bottom: 50%;
+
 }
 /* /main */
 
