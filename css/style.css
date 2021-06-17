@@ -183,21 +183,37 @@ nav{
 .footer h2{
     background-image: url(../img/stars.svg);
     background-repeat: no-repeat;
-    text-align: center;
     height: 50%;
-    width: 100%;
+    width: 80%;
+    font-size: 100%;
+    padding: 8%;
 }
 
 .footer{
     
-    float: middle;
-    margin-left: 40%;
+    float: left;
+    margin-left: 20%;
     margin-bottom: 50%;
+    width: 80%;
 
 }
+.btn{
+    margin-left: 20%;
+}
+.viola{
+    background-color:#8ea1e1;
+    color: white;
+}
+
 /* /main */
 
 /* footer */
+
+footer{
+    height: 20vh;
+    width: 60%;
+    background-color: #23272a;
+}
 
 /* /footer */
 
