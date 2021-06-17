@@ -32,6 +32,7 @@ clearfix{
     content: "";
     display: table;
     clear: both;
+    margin-bottom: 0%;
 }
 /* /common */
 
@@ -193,7 +194,6 @@ nav{
     
     float: left;
     margin-left: 20%;
-    margin-bottom: 50%;
     width: 80%;
 
 }
@@ -208,13 +208,89 @@ nav{
 /* /main */
 
 /* footer */
-
-footer{
-    height: 20vh;
-    width: 60%;
+.cinque{
+    float: left;
+    margin-left: 0;
+    margin-top: 30%;
+    padding-left: 5%;
+    padding-right: 5%;
     background-color: #23272a;
+    height: 50vh;
+    font-size: 50%;
 }
 
+.cinque .movimento-footer{
+
+    
+    width: 20%;
+
+}
+
+.cinque .riga-footer{
+    width: 100%;
+}
+
+#size{
+    display: inline-block;
+    height: 5px;
+}
+
+i{
+    padding-right: 1;
+}
+
+.colonna-footer li{
+    display: inline-block;
+    margin: 5%;
+    width: 100%;
+}   
+
+.movimento-footer{
+
+    float: left;
+    /* margin-left: 0;
+    margin-top: 30%; */
+    padding-left: 5%;
+    padding-right: 5%;
+
+}
+
+.movimento-footer,
+.movimento-footer a{
+    padding: 5%;
+    color: white;
+    text-decoration: none;
+
+}
+
+.colonna-footer.uno :first-child{
+    color:#7289da;
+
+}
+
+#colore-blu{
+    color: #7289da;
+    z-index: 9999;
+}
+
+.riga-footer{
+    float: left;
+    width: 50%;
+    padding-left: 5%;
+    padding-right: 5%;
+
+}
+
+.destra{
+    text-align: center;
+    margin-left: 80%;
+}
+
+.riga-footer.quinto{
+    border-top: solid 1px #7289da;
+}
+
+    
 /* /footer */
 
 /* debug */
