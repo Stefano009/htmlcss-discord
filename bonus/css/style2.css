@@ -29,10 +29,14 @@ nav a{
 }
 
 clearfix{
-    content: "";
+    /* content: "";
     display: table;
     clear: both;
-    margin-bottom: 0%;
+    margin-bottom: 0%; */
+    height: 100%;
+    width: 100%;
+    clear: both;
+    display: table;
 }
 /* /common */
 
@@ -298,5 +302,27 @@ i{
 
     
 /* onde */
+.onde{
+
+    display: block;
+    margin-top: 50%;
+    height: 100vh;
+    width: 100%;
+    object-fit: cover;
+    opacity: 0.1;
+    margin: 0 auto;
+}
+
+.onde-due{
+
+    display: block;
+    margin-top: 50%;
+    height: 40vh;
+    width: 100%;
+    object-fit: cover;
+    opacity: 0.1;
+    margin: 0 auto;
+
+}
 
 /* /onde */
